@@ -7,7 +7,7 @@ import homeMenuFunction as LoggedIn
 def mycursor(sql):
     mydb = con.connect(
         host="localhost",
-        user="rara",
+        user="root",
         password="password",
         database="NETFLIX"
     )
@@ -19,7 +19,7 @@ def mycursor(sql):
 def updateMycursor(sql):
     mydb = con.connect(
         host="localhost",
-        user="rara",
+        user="root",
         password="password",
         database="NETFLIX"
     )
